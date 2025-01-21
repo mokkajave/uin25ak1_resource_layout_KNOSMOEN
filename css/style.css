@@ -27,9 +27,9 @@ body {
                 display: flex;
                 justify-content: space-between;
                 align-content: center;
+                width: 100%;
                 margin: 0;
                 padding: 0;
-                width: 100%;
     
                 li {
                     text-decoration: none;
@@ -53,19 +53,24 @@ body {
         }
 
         article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
             background-color: var(--white);
             max-width: 100%;
             height: auto;
             margin: 0;
             padding: 75px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
 
             h2 {
                 margin: 0;
             }
         }
     }
+}
+
+.white {
+    background-color: var(--white);
+    color: var(--black);
 }
